@@ -134,4 +134,4 @@ Las principales entidades son:
 
 Estudiante de la Tecnicatura Universitaria en Programación (UTN) y desarrolladora Full Stack.
 
-GitHub: *(agregar cuando el repositorio esté publicado)*
+GitHub: https://github.com/SheylaAstorga/ecommerce-rest-api.git
