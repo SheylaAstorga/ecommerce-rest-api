@@ -1,4 +1,5 @@
 import swaggerJSDoc from "swagger-jsdoc";
+import "dotenv/config";
 
 const options = {
   definition: {
@@ -10,7 +11,10 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:3000",
+        url:
+          process.env.NODE_ENV === "production"
+            ? "https://ecommerce-rest-api-1-o4qg.onrender.com"
+            : "http://localhost:3000",
       },
     ],
     components: {
